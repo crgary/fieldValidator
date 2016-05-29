@@ -17,7 +17,7 @@ Call the fieldValidator via javascript::
 
 
 Configuration
-^^^^^^^^^^^^^
+-------------
 
 :doc:`options` are passed to the ``fieldValidator`` function via an options hash at instantiation::
 
@@ -29,7 +29,9 @@ Configuration
     });
 
 Most options may be provided as data-attributes on the target element:
+
 +Example 1
+
 .. code-block:: html
 
     <input type="text" class="field-validator" data-message-error="This field is required" requried>
@@ -39,6 +41,7 @@ Most options may be provided as data-attributes on the target element:
     $('.field-validator').fieldValidator({});
     
 +Example 2
+
 .. code-block:: html
 
     <div>
@@ -55,7 +58,7 @@ Most options may be provided as data-attributes on the target element:
     </div>
     <div>
       <label for="ddl" >Password field</label>
-      <select type="text" id="ddl" class="field-validator" data-message-error="This field is required" requried>
+      <select type="text" id="ddl" class="field-validator" data-message-error="This field is required" requried></select>
     </div>
     <div>
       <a href="#" class="btn-validator" >Button example 1</a>

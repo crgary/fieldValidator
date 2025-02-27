@@ -50,15 +50,15 @@ Most options may be provided as data-attributes on the target element:
     </div>
     <div>
       <label for="txt-email" >Email field</label>
-      <input type="email" id="txt-email" class="field-validator" data-message-error="This email is not valid" requried>
+      <input type="email" id="txt-email" class="field-validator" data-message-error="This email is not valid" required>
     </div>
     <div>
       <label for="txt-pwd" >Password field</label>
-      <input type="password" id="txt-pwd" class="field-validator" data-message-error="This field is required" requried>
+      <input type="password" id="txt-pwd" class="field-validator" data-message-error="This field is required" required>
     </div>
     <div>
       <label for="ddl" >Password field</label>
-      <select type="text" id="ddl" class="field-validator" data-message-error="This field is required" requried></select>
+      <select type="text" id="ddl" class="field-validator" data-message-error="This field is required" required></select>
     </div>
     <div>
       <a href="#" class="btn-validator" >Button example 1</a>

@@ -69,7 +69,7 @@ Most options may be provided as data-attributes on the target element:
 ::
 
     $('.btn-validator').fieldValidator({
-        group_validator: ".field-validation",
+        group_validator: ".field-validator",
         on_click: function(){
         
         }
